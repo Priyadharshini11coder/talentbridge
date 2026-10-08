@@ -1,0 +1,12 @@
+{
+  "name": "talentbridge",
+  "version": "1.0.0",
+  "description": "TalentBridge - Internship & Workforce Tracking Platform",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run start",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  }
+}
